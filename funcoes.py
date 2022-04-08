@@ -119,7 +119,7 @@ def LerArquivo(quadrante: int = 4) -> Grid:
 
 def LerEntradaPontoInicial() -> PontoGridAstar:
 
-	texto = input("\nInsira a coordenada do ponto inicial (Ex.: '1,5'):\n")
+	texto = input("\nInsira a coordenada do ponto inicial (Ex.: '1,-5'):\n")
 
 	ponto: PontoGridAstar = None
 
@@ -136,7 +136,7 @@ def LerEntradaPontoInicial() -> PontoGridAstar:
 
 def LerEntradaPontoFinal() -> PontoGridAstar:
 
-	texto = input("\nInsira a coordenada do ponto final (Ex.: '6,3'):\n")
+	texto = input("\nInsira a coordenada do ponto final (Ex.: '6,-3'):\n")
 
 	ponto: PontoGridAstar = None
 
